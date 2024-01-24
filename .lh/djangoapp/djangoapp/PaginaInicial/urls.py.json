@@ -1,0 +1,22 @@
+{
+    "sourceFile": "djangoapp/djangoapp/PaginaInicial/urls.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1706121607960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706121613691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n from django.urls import path\r\n-from catalog import views\r\n+from PaginaInicial import views\r\n \r\n \r\n urlpatterns = [\r\n \r\n"
+                }
+            ],
+            "date": 1706121607960,
+            "name": "Commit-0",
+            "content": "from django.urls import path\r\nfrom catalog import views\r\n\r\n\r\nurlpatterns = [\r\n\r\n]\r\n"
+        }
+    ]
+}
