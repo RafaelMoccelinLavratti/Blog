@@ -1,0 +1,38 @@
+{
+    "sourceFile": ".vscode/settings.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1706101928458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706101964513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-    \"window.zoomLevel\": 2,\r\n+    \"window.zoomLevel\": 0,\r\n     \"editor.fontSize\": 24,\r\n     \"editor.hover.enabled\": true,\r\n     \"workbench.startupEditor\": \"none\",\r\n     \"explorer.compactFolders\": false,\r\n"
+                },
+                {
+                    "date": 1706101973478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-    \"window.zoomLevel\": 0,\r\n+    \"window.zoomLevel\": ,\r\n     \"editor.fontSize\": 24,\r\n     \"editor.hover.enabled\": true,\r\n     \"workbench.startupEditor\": \"none\",\r\n     \"explorer.compactFolders\": false,\r\n"
+                },
+                {
+                    "date": 1706101979446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n {\r\n-    \"window.zoomLevel\": ,\r\n     \"editor.fontSize\": 24,\r\n     \"editor.hover.enabled\": true,\r\n     \"workbench.startupEditor\": \"none\",\r\n     \"explorer.compactFolders\": false,\r\n"
+                },
+                {
+                    "date": 1706102100492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-    \"editor.fontSize\": 24,\r\n+    \"editor.fontSize\": 12,\r\n     \"editor.hover.enabled\": true,\r\n     \"workbench.startupEditor\": \"none\",\r\n     \"explorer.compactFolders\": false,\r\n     \"terminal.integrated.fontSize\": 24,\r\n"
+                },
+                {
+                    "date": 1706102108147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\r\n-    \"editor.fontSize\": 12,\r\n+    \"editor.fontSize\": 15,\r\n     \"editor.hover.enabled\": true,\r\n     \"workbench.startupEditor\": \"none\",\r\n     \"explorer.compactFolders\": false,\r\n     \"terminal.integrated.fontSize\": 24,\r\n"
+                }
+            ],
+            "date": 1706101928458,
+            "name": "Commit-0",
+            "content": "{\r\n    \"window.zoomLevel\": 2,\r\n    \"editor.fontSize\": 24,\r\n    \"editor.hover.enabled\": true,\r\n    \"workbench.startupEditor\": \"none\",\r\n    \"explorer.compactFolders\": false,\r\n    \"terminal.integrated.fontSize\": 24,\r\n    \"editor.rulers\": [80, 120],\r\n    \"workbench.colorTheme\": \"OM Theme (Default Dracula Italic)\",\r\n    \"workbench.iconTheme\": \"material-icon-theme\",\r\n    \"code-runner.executorMap\": {\r\n      \"python\": \"clear ; python -u\"\r\n    },\r\n    \"code-runner.runInTerminal\": true,\r\n    \"code-runner.ignoreSelection\": true,\r\n    \"editor.fontFamily\": \"'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace\",\r\n    \"terminal.integrated.fontFamily\": \"\",\r\n    \"editor.fontLigatures\": false,\r\n    \"[python]\": {\r\n      \"editor.defaultFormatter\": \"ms-python.autopep8\",\r\n      \"editor.tabSize\": 4,\r\n      \"editor.insertSpaces\": true,\r\n      \"editor.formatOnSave\": true,\r\n      \"editor.codeActionsOnSave\": {\r\n        \"source.fixAll\": true,\r\n        \"source.fixAll.unusedImports\": true,\r\n        \"source.organizeImports\": true\r\n      }\r\n    },\r\n    \"python.languageServer\": \"Pylance\",\r\n    \"python.formatting.autopep8Args\": [\r\n      \"--indent-size=4\",\r\n      \"--max-line-length=80\"\r\n      // \"--ignore=E111\"\r\n    ],\r\n    \"python.linting.flake8Args\": [\r\n      // \"--ignore=E111\",\r\n    ],\r\n    \"python.linting.flake8Enabled\": true,\r\n    \"python.linting.mypyEnabled\": true,\r\n    \"python.testing.unittestEnabled\": false,\r\n    \"python.testing.pytestEnabled\": true,\r\n    \"python.analysis.diagnosticSeverityOverrides\": {\r\n      \"reportUnknownMemberType\": \"none\",\r\n      \"reportUnknownArgumentType\": \"none\",\r\n      \"reportUnknownVariableType\": \"none\",\r\n      \"reportUnknownLambdaType\": \"none\",\r\n      \"reportUnknownParameterType\": \"none\"\r\n    },\r\n    \"python.defaultInterpreterPath\": \"./venv/bin/python\",\r\n    \"python.analysis.typeCheckingMode\": \"basic\",\r\n    \"cSpell.enabled\": true,\r\n    \"python.formatting.provider\": \"none\"\r\n  }"
+        }
+    ]
+}
