@@ -1,0 +1,50 @@
+{
+    "sourceFile": "djangoapp/djangoapp/djangoapp/urls.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1706117694808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1706117712301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,6 +18,7 @@\n from django.urls import path\r\n \r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n+    path('', views.index, name='index'),\r\n ]\r\n-path('', views.index, name='index'),\r\n+\r\n"
+                },
+                {
+                    "date": 1706117721104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,7 @@\n from django.urls import path\r\n \r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n-    path('', views.index, name='index'),\r\n+    path('', views.index, name='paginaInicial'),\r\n ]\r\n \r\n"
+                },
+                {
+                    "date": 1706117804382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n \"\"\"\r\n from django.contrib import admin\r\n from django.urls import path\r\n \r\n+\r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n     path('', views.index, name='paginaInicial'),\r\n ]\r\n"
+                },
+                {
+                    "date": 1706117814667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))\r\n \"\"\"\r\n from django.contrib import admin\r\n from django.urls import path\r\n+from\r\n \r\n-\r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n     path('', views.index, name='paginaInicial'),\r\n ]\r\n"
+                },
+                {
+                    "date": 1706117821783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))\r\n \"\"\"\r\n from django.contrib import admin\r\n from django.urls import path\r\n-from\r\n+from \r\n \r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n     path('', views.index, name='paginaInicial'),\r\n"
+                },
+                {
+                    "date": 1706117828191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))\r\n \"\"\"\r\n from django.contrib import admin\r\n from django.urls import path\r\n-from \r\n+from django.vi\r\n \r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n     path('', views.index, name='paginaInicial'),\r\n"
+                },
+                {
+                    "date": 1706117835084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))\r\n \"\"\"\r\n from django.contrib import admin\r\n from django.urls import path\r\n-from django.view\r\n+from \r\n \r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n     path('', views.index, name='paginaInicial'),\r\n"
+                },
+                {
+                    "date": 1706117919252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))\r\n \"\"\"\r\n from django.contrib import admin\r\n from django.urls import path\r\n+\r\n from . import views\r\n \r\n urlpatterns = [\r\n     path('admin/', admin.site.urls),\r\n"
+                }
+            ],
+            "date": 1706117694808,
+            "name": "Commit-0",
+            "content": "\"\"\"\r\nURL configuration for djangoapp project.\r\n\r\nThe `urlpatterns` list routes URLs to views. For more information please see:\r\n    https://docs.djangoproject.com/en/5.0/topics/http/urls/\r\nExamples:\r\nFunction views\r\n    1. Add an import:  from my_app import views\r\n    2. Add a URL to urlpatterns:  path('', views.home, name='home')\r\nClass-based views\r\n    1. Add an import:  from other_app.views import Home\r\n    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')\r\nIncluding another URLconf\r\n    1. Import the include() function: from django.urls import include, path\r\n    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))\r\n\"\"\"\r\nfrom django.contrib import admin\r\nfrom django.urls import path\r\n\r\nurlpatterns = [\r\n    path('admin/', admin.site.urls),\r\n]\r\npath('', views.index, name='index'),\r\n"
+        }
+    ]
+}
