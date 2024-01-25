@@ -1,6 +1,7 @@
 .banner1{
     border: 5px;
     border-color:red; 
-    border-style: ridge
-
+    border-style: ridge;
+    padding:auto;
+    
 }
