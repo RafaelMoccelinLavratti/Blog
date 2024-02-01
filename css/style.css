@@ -20,6 +20,14 @@
   padding-top: 9rem;
 }
 
+.card1{
+  border: 1px;
+  border-color: red;
+  border-style: ridge;
+}
+
+
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
