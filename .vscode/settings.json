@@ -5,7 +5,7 @@
     "explorer.compactFolders": false,
     "terminal.integrated.fontSize": 15,
     "editor.rulers": [80, 120],
-    "workbench.colorTheme": "Theme Darker",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "workbench.iconTheme": "material-icon-theme",
     "code-runner.executorMap": {
       "python": "clear ; python -u"
