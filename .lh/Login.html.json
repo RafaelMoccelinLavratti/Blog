@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1707315315057,
@@ -12,6 +12,10 @@
                 {
                     "date": 1707315336967,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,14 @@\n         <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n         <title></title>\r\n         <meta name=\"description\" content=\"\">\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n-        \r\n+        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN\" crossorigin=\"anonymous\">\r\n+    <link rel=\"stylesheet\"  media=\"all\" href=\"css/style.css\">\r\n+    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css\">\r\n+\r\n+    <!--Começo do Icone de Aba-->\r\n+    <link rel=\"shortcut icon\" type=\"imagex/png\" href=\"/img/Logo.ico\">\r\n     </head>\r\n     <body>\r\n      \r\n     <div class=\"dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle\">\r\n"
+                },
+                {
+                    "date": 1707331517199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n       </symbol>\r\n     </svg>\r\n \r\n     \r\n-<main class=\"form-signin w-100 m-auto ali\">\r\n+<main class=\"form-signin w-100 m-auto al\">\r\n   <form>\r\n     <img class=\"mb-4\" src=\"img/Logo.ico\" alt=\"\" width=\"72\" height=\"57\">\r\n     <h1 class=\"h3 mb-3 fw-normal\">Please sign in</h1>\r\n \r\n"
                 }
             ],
             "date": 1707315315057,
